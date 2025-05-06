@@ -1,4 +1,4 @@
-# Quantitative Analysis of Performance Degradation in DeepSeek Models Quantization
+# Quantitative Analysis of Performance Drop in DeepSeek Model Quantization
 
 
 Enbo Zhao<sup>1,2</sup>, Yi Shen<sup>1,2</sup>, Shuming Shi<sup>1,2</sup>, Jieyun Huang<sup>1,2</sup>, Zhihao Chen<sup>1,2</sup>, Ning Wang<sup>1,2</sup>, Siqi Xiao<sup>1,2</sup>, Jian Zhang<sup>1,2</sup>, Kai Wang<sup>1,2</sup>, Shiguo Lian<sup>1,2</sup>
@@ -7,7 +7,12 @@ Enbo Zhao<sup>1,2</sup>, Yi Shen<sup>1,2</sup>, Shuming Shi<sup>1,2</sup>, Jieyu
 <sup>1</sup> Unicom Data Intelligence, China Unicom  
 <sup>2</sup> Data Science & Artificial Intelligence Research Institute, China Unicom
 
-## Download Links
+## Paper Link
+
+- **Arxiv**: [Quantitative Analysis of Performance Drop in DeepSeek Model Quantization](https://arxiv.org/pdf/2505.02390)
+
+
+## Download Link
 
 - **ModelScope**: [DeepSeek-DQ3_K_M](https://www.modelscope.cn/models/UnicomAI/DeepSeek-DQ3_K_M/)
 
