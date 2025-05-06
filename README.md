@@ -46,8 +46,8 @@ Recently, there is a high demand for deploying DeepSeek-R1 and V3 locally, possi
 | CMMLU         | -                           | 90.37              | 90.42              | 89.85              | 89.61                | 90.17           |
 | C‑Eval        | 91.8                        | 92.20              | 92.10              | 91.60              | 91.70                | 91.80           |
 | **Average**   | -                           | 83.48              | 82.70              | 81.44              | 82.63                | 83.03           |
-| Weighted avg. | -                           | 85.82              | 85.24              | 84.28              | 85.02                | 85.53           |
-| Accuracy drop | -                           | -                  | 0.68%              | 1.80%              | 0.94%                | 0.34%           |
+| **Weighted avg.** | -                           | 85.82              | 85.24              | 84.28              | 85.02                | 85.53           |
+| **Accuracy drop** | -                           | -                  | 0.68%              | 1.80%              | 0.94%                | 0.34%           |
 
 <br>
 
@@ -65,8 +65,8 @@ Recently, there is a high demand for deploying DeepSeek-R1 and V3 locally, possi
 | CMMLU           | -                           | 81.57                | 82.68                | 80.69                | 77.32                | 81.07              |
 | C‑Eval          | 86.5                        | 83.10                | 82.90                | 82.60                | 77.60                | 83.40              |
 | **Average**     | -                           | 70.05                | 70.59                | 69.82                | 61.51                | 70.47              |
-| Weighted avg.   | -                           | 75.45                | 75.79                | 75.06                | 68.73                | 75.73              |
-| Accuracy drop   | -                           | -                    | 0                    | 0.52%                | 8.91%                | 0                  |
+| **Weighted avg.**   | -                           | 75.45                | 75.79                | 75.06                | 68.73                | 75.73              |
+| **Accuracy drop**   | -                           | -                    | 0                    | 0.52%                | 8.91%                | 0                  |
 
 <br>
 
@@ -84,5 +84,5 @@ Recently, there is a high demand for deploying DeepSeek-R1 and V3 locally, possi
 | CMMLU           | -               | 83.91                   | 83.97               | 83.57                | 83.34                |
 | C‑Eval          | -               | 87.0                    | 86.7                | 86.8                 | 86.2                 |
 | **Average**     | -               | 77.78                   | 77.65               | 77.91                | 77.35                |
-| Weighted avg.   | -               | 79.94                   | 79.71               | 79.97                | 79.40                |
-| Accuracy drop   | -               | -                       | 0.29%               | 0                    | 0.68%                |
+| **Weighted avg.**   | -               | 79.94                   | 79.71               | 79.97                | 79.40                |
+| **Accuracy drop**   | -               | -                       | 0.29%               | 0                    | 0.68%                |
