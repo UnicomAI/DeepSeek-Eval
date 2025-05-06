@@ -19,7 +19,7 @@ Enbo Zhao<sup>1,2</sup>, Yi Shen<sup>1,2</sup>, Shuming Shi<sup>1,2</sup>, Jieyu
 ## Abstract
 Recently, there is a high demand for deploying DeepSeek-R1 and V3 locally, possibly because the official service often suffers from being busy and some organizations have data privacy concerns. While single-machine deployment offers infrastructure simplicity, the models’ 671B FP8 parameter configuration exceeds the practical memory limits of standard 8-GPU devices (A100/H100/910B). Quantization is a widely used technique that helps reduce model memory consumption. However, it is unclear what the performance of DeepSeek-R1 and V3 will be after being quantized. This technical report presents the first comprehensive evaluation of multibitwidth quantization across the complete DeepSeek model spectrum. Key findings reveal that 4-bit quantization maintains little performance degradation versus FP8 while enabling single-machine deployment on standard Nvidia GPU devices. We further propose DQ3_K_M, a dynamic 3-bit quantization method that significantly outperforms traditional Q3_K_M variantion various benchmarks, which is also comparable with 4-bit quantization (Q4_K_M) approach in most tasks. Moreover, DQ3_K_M supports single-machine deployment configurations for both NVIDIA H100/A100 and Huawei 910B. 
 
-## Experiment Results
+## Experimental Results
 
 **Table 1:** Resource usage of DQ3_K_M versus llama.cpp and Unsloth quantizations for DeepSeek R1 (671B) at a 32K‑token context length.
 
